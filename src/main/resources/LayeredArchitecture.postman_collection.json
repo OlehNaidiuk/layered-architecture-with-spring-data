@@ -1,0 +1,376 @@
+{
+	"info": {
+		"_postman_id": "99316ba0-170b-4c88-bb0e-e9775fd29e8d",
+		"name": "LayeredArchitecture",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SaveFirstProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Pivo MOVA lager 4,6% svetloe 0.33 l\",\n    \"price\": 38,\n    \"currency\": \"UAH\",\n    \"description\": \"Пиво \\\"Лагер\\\" світле нефільтроване непастеризоване.\",\n    \"producingCountry\": \"UKRAINE\",\n    \"manufacturedDate\": \"26-06-2022\",\n    \"expirationDate\": \"27-12-2022\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveSecondProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Чіпси Lay's картопляні (паприка) 140 г\",\n    \"price\": 52.70,\n    \"currency\": \"UAH\",\n    \"description\": \"Чіпси картопляні зі смаком паприки.\",\n    \"producingCountry\": \"POLAND\",\n    \"manufacturedDate\": \"26-03-2022\",\n    \"expirationDate\": \"26-10-2022\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveThirdProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Ікра червона горбуші Lemberg Gorbuscha 500 г\",\n    \"price\": 1881,\n    \"currency\": \"UAH\",\n    \"description\": \"Найпопулярніший сорт червоної ікри. Має тонкий аромат моря.\",\n    \"producingCountry\": \"GERMANY\",\n    \"manufacturedDate\": \"14-05-2022\",\n    \"expirationDate\": \"14-11-2022\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveFourthProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Індійський чорний чай Мері Чай ароматизований Бергамот в пакетиках 25 шт + Ложка\",\n    \"price\": 42,\n    \"currency\": \"UAH\",\n    \"description\": \"Найвідоміший ароматизований чай у світі. Бергамотова олія надає напою особливий вишуканий смак і ніжний \\\"оксамитовий\\\" аромат з ноткою прянощів. Безкоштовна ложка всередині пачки.\",\n    \"producingCountry\": \"INDIA\",\n    \"manufacturedDate\": \"26-06-2022\",\n    \"expirationDate\": \"26-06-2024\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveFifthProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Соєвий соус темний Haday 10,5 л\",\n    \"price\": 960,\n    \"currency\": \"UAH\",\n    \"description\": \"Концентрований темний соєвий соус Haday - це незаперечна перевага для тих, хто хоче здивувати своїх друзів і близьких, коханих і рідних або ж відвідувачів вишуканим смаком м'яса або будь-якої іншої страви.\",\n    \"producingCountry\": \"CHINA\",\n    \"manufacturedDate\": \"26-06-2021\",\n    \"expirationDate\": \"26-06-2022\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateFirstProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"productId\": 1,\n    \"name\": \"Пиво MOVA Lager 4,6% світле 0.33 л\",\n    \"price\": 38,\n    \"currency\": \"UAH\",\n    \"description\": \"Пиво \\\"Лагер\\\" світле нефільтроване непастеризоване.\",\n    \"producingCountry\": \"UKRAINE\",\n    \"manufacturedDate\": \"26-06-2022\",\n    \"expirationDate\": \"27-12-2022\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteByWrongId",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FindAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FindById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FindByWrongId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FindExpired",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products/expired",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"expired"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FindCheaperThan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products/cheaper-than?maxPrice=50",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"cheaper-than"
+					],
+					"query": [
+						{
+							"key": "maxPrice",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FindByShelfLife",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products/shelf-life?years=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"shelf-life"
+					],
+					"query": [
+						{
+							"key": "years",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
